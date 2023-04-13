@@ -1,0 +1,84 @@
+/*menu*/
+@media(max-width:991.9px){
+.menuDet{
+	display: none;
+}
+.menuDet.forTab{
+	display: flex;
+	justify-content: center;
+}
+.topBar .navbar-nav{
+	align-items: baseline;
+	flex-direction: row;
+	margin: 20px 0;
+	justify-content: center;
+}
+
+/*hero section*/
+.heroCont{
+	height: 1100px;
+}
+.heroCard{
+	padding: 10px 37px;
+}
+.heroSection .card2{
+	margin: 0 20px;
+}
+.heroSection .card3{
+	margin: 0 50px;
+}
+.cardDetails h6{
+	font-size: 12px;
+}
+.cardDetails p {
+  font-size: 35px;
+}
+.heroCard img{
+	width: 40px;
+}
+
+/*icons titles section*/
+.icTitHead h6{
+	font-size: 15px;
+}
+
+/*about section*/
+.aboutImage{
+	justify-content: center;
+}
+.aboutDetails{
+	margin: 40px 0;
+  text-align: center;
+}
+.imgBox{
+	bottom: 0;
+  right: -5px;
+}
+}
+@media(max-width:767.9px){
+.menuDet.forTab{
+	flex-direction: column;
+}
+.callDet{
+	margin: 0 0 5px 0;
+}
+
+/*hero section*/
+.cardContainer{
+	flex-direction: column;
+	margin: 0;
+}
+.heroSection .card2, .heroSection .card3{
+	margin: 0 0 25px 0;
+}
+.heroCard{
+	padding: 20px 25px;
+	margin-bottom: 25px;
+}
+.heroCont{
+	height: 1400px;
+}
+.icTitDet{
+	text-align: center;
+}
+}
